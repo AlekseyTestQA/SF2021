@@ -8,4 +8,7 @@
 8.git mv text.txt test_new.txt # переименовать файл «text.txt» в «test_new.txt»
 9.git mv readme_new.md folder/ # переместить файл readme_new.md в директорию folder/
 10.git commit -m "Name of commit" # зафиксировать в коммите проиндексированные изменения
-
+11.git branch # показать список веток
+12.git branch new_branch # создать новую ветку с указанным именем на текущем коммите 
+13.git push origin master # отправить в удалённый репозиторий (с сокр. именем origin) данные своей ветки master
+14.vim INFO.md редактирование файла
